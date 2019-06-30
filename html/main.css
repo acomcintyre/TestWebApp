@@ -1,21 +1,79 @@
 
-header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 900;
+@font-face{
+    src: url(Graffiti.ttf);
+    font-family: graffiti;
 }
 
+@font-face{
+    src: url(Crackvetica.ttf);
+    font-family: crackvetica;
+}
+
+@font-face{
+    src: url(Ginchiest.ttf);
+    font-family: ginchiest;
+}
+
+@font-face{
+    src: url(The_Led_Display_St.ttf);
+    font-family: led;
+}
+
+header {
+    font-family: crackvetica;
+    background-color: rgba(61, 62, 63, 0.75);
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+nav {
+    display: inline-block;
+    font-family: monospace;
+    color: rgb(128, 128, 128, 25);
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: center;
+    
+}
+
+body h1{
+    text-align: center;
+    font-family: graffiti;
+    color: rgb(31, 29, 29, .5);
+    background-color: rgb(98, 130, 158, .75);
+    line-height: 100px;
+}
+
+.website {
+    text-align: center;
+    font-family: monospace;
+    color: rgb(31, 29, 29, .5);
+    background-color: rgb(98, 130, 158, .75);
+    line-height: 100px;
+}
+
+.recipes {
+    font-family: ginchiest;
+    background-color: rgba(61, 62, 63, 0.75);
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+}
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    color: blue;
+    color: rgb(151, 48, 165, .5);
     text-align: left;
 }
 
 ul {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    color: rgb(156, 28, 200, .5);
+    color: rgb(128, 128, 128, 25);
     text-align: left;
+    text-decoration: none;
 }
 p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -25,6 +83,7 @@ p {
 
 hr{
     color: rgb(128, 128, 128, 25);
+   
 }
 
 a, footer{
@@ -32,4 +91,21 @@ a, footer{
     color: rgb(128, 128, 128, 25);
     text-decoration: none;
     letter-spacing: 3px;
+    text-align: center;
+}
+
+.recipes-background {
+    background-color: #9A9DA1;
+}
+
+.wrapper {
+    position: relative;
+    padding-bottom:  25px;
+    padding-top: 25px;
+    width: 1000px;;
+}
+
+img {
+    position: relative;
+    width: 50%;
 }
